@@ -14,3 +14,7 @@ jobs:
       name: actions 
       uses: ./.github/workflows/action.yml
 
+
+    actions2:
+      name: actions 
+      uses: ./.github/workflows/action-2.yml
