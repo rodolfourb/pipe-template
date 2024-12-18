@@ -1,0 +1,9 @@
+name: Build and Push Stage
+
+on:
+  workflow_call:
+
+
+jobs:
+  build-and-push:
+    uses: ./.github/workflows/java/jobs/build-and-push.yml
