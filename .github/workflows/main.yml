@@ -1,0 +1,12 @@
+name: Trivi Scan
+on:
+    workflow_call: 
+
+jobs:
+    scan:
+        runs-on: ubuntu-latest
+        steps:
+        - name: Setup logs
+          run: |
+            echo "log-to-file"
+          shell: bash
