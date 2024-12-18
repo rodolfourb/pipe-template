@@ -1,9 +1,11 @@
-name: Build and Push Stage
-
+name: Trivi Scan
 on:
-  workflow_call:
-
+    workflow_call: 
 
 jobs:
-  build-and-push:
-    uses: ./.github/workflows/java/jobs/build-and-push.yml
+    scan:
+        runs-on: ubuntu-latest
+        steps:
+          - name: Print Hello World
+            run: |
+              echo "Hello World!"          

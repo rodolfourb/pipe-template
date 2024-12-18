@@ -1,9 +1,0 @@
-name: Build and Push Stage
-
-on:
-  workflow_call:
-
-
-jobs:
-  build-and-push:
-    uses: rodolfourb/pipe-template/.github/workflows/java/jobs/build-and-push.yml@main
