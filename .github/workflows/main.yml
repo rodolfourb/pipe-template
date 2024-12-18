@@ -12,4 +12,4 @@ jobs:
 
     actions:
       name: actions 
-      uses: rodolfourb/pipe-template/.github/workflows/actions/java/stages/action.yml@main
+      uses: rodolfourb/pipe-template/.github/workflows/actions/action.yml@main
