@@ -6,4 +6,4 @@ on:
 
 jobs:
   build-and-push:
-    uses: rodolfourb/pipe-template/.github/workflows/java/jobs/build-and-push.yml@main
+    uses: ./.github/workflows/java/jobs/build-and-push.yml
