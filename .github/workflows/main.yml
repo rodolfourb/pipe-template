@@ -14,4 +14,4 @@ jobs:
 
     rodolfo:
       name: rodolfo 
-      uses: ./.github/workflows/actions/java/action.yml
+      uses: ./.github/workflows/actions/java/.github/workflows/action.yml
