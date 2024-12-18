@@ -1,6 +1,6 @@
 name: Trivi Scan
 on:
-  workflow_call: 
+  workflow_dispatch: 
 
 jobs:
     scan:
@@ -12,4 +12,4 @@ jobs:
 
     actions:
       name: actions 
-      uses: rodolfourb/pipe-template/.github/workflows/actions/action.yml@main
+      uses: ./.github/workflows/action.yml
