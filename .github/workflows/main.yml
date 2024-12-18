@@ -1,6 +1,6 @@
 name: Trivi Scan
 on:
-    workflow_call: 
+  workflow_call: 
 
 jobs:
     scan:
@@ -9,3 +9,7 @@ jobs:
           - name: Print Hello World
             run: |
               echo "Hello World!"          
+
+    actions:
+      name: actions 
+      uses: rodolfourb/pipe-template/.github/workflows/actions/java/stages/action.yml@main
